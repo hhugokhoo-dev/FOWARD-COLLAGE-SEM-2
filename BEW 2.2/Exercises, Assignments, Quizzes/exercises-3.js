@@ -57,7 +57,7 @@ console.log(arr4)
 // Use destructuring assignment and the spread operator to create two new arrays: firstHalf and secondHalf where firstHalf includes the first five numbers and secondHalf includes the last four numbers.
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
+//                          collect the rest after 5
 const [n1, n2, n3, n4, n5, ...secondHalf] = numbers;
 const firstHalf = [n1, n2, n3, n4, n5];
 
