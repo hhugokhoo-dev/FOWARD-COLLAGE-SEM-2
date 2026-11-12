@@ -9,14 +9,14 @@ function traditionalMultiply (a,b) {
 
 //display all items from an argument 
 
-const displyAll = (arr) => {
-    for(item of arr) {
+const displayAll = (arr) => {
+    for (const item of arr) {
         console.log(item)
     }
 }
 
 const phones =["IP" , "Samsung", "Oppo"]
-displyAll(phones)
+displayAll(phones)
 
 const convertCMtoM = (cm) => {
     const m = cm / 100

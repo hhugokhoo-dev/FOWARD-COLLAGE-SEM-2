@@ -47,7 +47,7 @@ if (true){
     let fruit = "Banana";
     console.log(fruit)
 }
-  console.log(fruit)
+     console.log(fruit)
 
   //the dirrerent between var + let vs const = const, cannot reasign the variable
 
