@@ -50,7 +50,7 @@ console.log(titleWithyear)
 // Using the .sort() method and arrow functions, return a new array that sorts the books by their ratings in descending order.
 // Submit your code
 
-
+//         a-b = from low to high              b-a = from high to low 
 const sortedBooks = [...books].sort((a, b) => b.ratings - a.ratings);
 
 console.log(sortedBooks);
