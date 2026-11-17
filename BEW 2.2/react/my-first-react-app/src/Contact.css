@@ -1,0 +1,15 @@
+.contact-section {
+  padding: 2 rem;
+  background-color: antiquewhite;
+}
+
+.contact-section h2 {
+  color: #ff7f7f;
+  margin-bottom: 1rem;
+}
+
+.contact-section p {
+  font-size: 25px;
+  line-height: 1.6;
+  color: blue;
+}

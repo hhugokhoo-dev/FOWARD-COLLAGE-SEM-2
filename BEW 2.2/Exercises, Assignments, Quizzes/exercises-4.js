@@ -31,6 +31,10 @@ const book = {
 const {title, author, characters} = book
 const {year, publisher} = book.publication
 
+// const {title, author, characters， publication :{year, publisher} = book} 
+
+
+
 console.log(title) 
 console.log(author) 
 console.log(characters)
@@ -89,3 +93,9 @@ const array3 = [...data.numbers1,...data.numbers2]
 console.log(array1)
 console.log(array2)
 console.log(array3)
+
+// const {numbers1: array1, numbers2: array2} = data 
+// const array3 = [...array1, ...array2]
+// console.log(array1)
+// console.log(array2)
+// console.log(array3)

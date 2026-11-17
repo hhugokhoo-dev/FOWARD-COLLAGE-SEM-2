@@ -64,6 +64,9 @@ const firstHalf = [n1, n2, n3, n4, n5];
 console.log(firstHalf);
 console.log(secondHalf);
 
+// const [a, b, c, d, e ...secondHalf] = numbers
+// const firstHalf = [a, b, c, d, e]
+
 
 // 4. Spread Operator with Functions
 
@@ -86,3 +89,5 @@ return a + b + c;
 
 const listotalsum = sum(...number)
 console.log(listotalsum) 
+
+// console.log(sum(...number))
